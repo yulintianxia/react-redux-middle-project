@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+解决办法 如下：
+
+（1）在用户代码片段中加上以下配置
+
+{
+"editor.formatOnType": false,
+"editor.formatOnSave": false
+}
+
+（2）再禁用以下的插件 js-CSS-HTML Formatter
